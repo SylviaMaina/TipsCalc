@@ -1,0 +1,102 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Strong cyan: hsl(172, 67%, 45%)
+
+### Neutral
+
+$ Very dark cyan: hsl(183, 100%, 15%)
+`$ Dark grayish cyan: hsl(186, 14%, 43%)
+- Dark grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy 
+
+- Font size (form inputs): 24px
+
+### Font
+
+- Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+- Weights: 400, 500, 700*/
+
+.maindiv{
+ 
+   width: 700px;
+   height:700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: hsl(184, 14%, 56%);
+}
+img{
+    
+    margin-left: 30%;
+    width: 80px;
+    margin-top: 30px;
+    height: 100px;
+    padding: 20px;
+}
+.label h1{
+    justify-content: center;
+    color:#fff;
+}
+.bill{
+    border: 3px solid #fff;
+    padding-bottom: 0;
+    float: right;
+    height: 320px;
+    border-radius:8% ;
+    margin-right: 50%;
+}
+.results{
+    background-color: hsl(27, 100%, 15%);
+    margin-left: 110%;
+    float: left;
+    width: 300px;
+    height: 300px;
+    top: -235px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    border-radius: 10%;
+}
+.selecttip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+.btn{
+ width: 40px;
+ text-align: center;
+ background-color:hsl(183, 100%, 15%) ;
+ color: #fff;
+ border-radius: 0.5rem;
+ padding: 1rem 0;   
+}
+.btn-active{
+    background-color: darkcyan;
+}
+.inp-text{
+    width: 46%;
+}
+
+h1, h2, p{
+    color: #add8e6;
+}

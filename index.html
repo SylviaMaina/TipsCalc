@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <title>Splitter| Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="splitter.css">
+</head>
+<body>
+<div class="maindiv">
+  
+   <img src="images/logo.svg" alt="">
+  
+
+<div class="bill">
+  <h1>Bill</h1>
+  <label for="bill-el">Bill</label>
+  <input class="inp-text" type="text" 
+    name="inp-bill" id="inp-bill" placeholder="0.0" alt="dollar">
+  <div class="selecttip">
+    <div class="btn tip">5%</div>
+    <div class="btn tip">10%</div>
+    <div class="btn tip">15%</div>
+    <div class="btn tip">25%</div>
+    <div class="btn tip btn-active">50%</div>
+    <input class="btn tip" type="text" 
+    name="inp-tip" id="inp-tip" placeholder="custom"
+
+  </div>
+<div class="pple">
+  <h2>Number of people</h2>
+  <label for="pple">No.of people </label>
+  <input type="text" id="pple-el"  placeholder="cannot be 0">
+
+  
+</div>
+</div>
+
+
+<div class="results">
+  <div class="title">Tip</div>
+<div class="value">$4.27</div>
+
+<div class="title">Total</div>
+  <div class="value">32.79</div>
+
+  <div class="btn reset">Reset</div>
+</div>
+
+</div>
+  
+  <script src="splitter.js"></script>
+</body>
+</html>
